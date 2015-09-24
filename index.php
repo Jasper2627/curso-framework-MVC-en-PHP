@@ -1,7 +1,5 @@
 <?php
 
-//echo $_GET['url'];
-
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', realpath(dirname(__FILE__)) . DS);
 define('APP_PATH', ROOT . 'application' . DS);
@@ -14,6 +12,11 @@ require_once APP_PATH . 'Model.php';
 require_once APP_PATH . 'View.php';
 require_once APP_PATH . 'Registro.php';
 
-echo '<pre>';print_r(get_required_files());
+try{
+    Bootstrap::run(new Request);
+}
+catch(Exception $e){
+    echo $e->getMessage();
+}
 
 ?>
