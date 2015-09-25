@@ -1,7 +1,7 @@
-<?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
+</div>
+<div id="footer">
+    Copyright &copy; 2012 <?php echo APP_COMPANY; ?>
+</div>
+</div>
+</body>
+</html>

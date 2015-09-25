@@ -1,0 +1,184 @@
+/* CSS Document */
+
+* {
+margin:0;
+padding:0
+} 
+
+body
+{
+margin:0px;
+background-image:url(../img/body_bg.jpg);
+background-repeat:repeat-x;
+background-color:#3F2F22;
+font-family:'Helvetica', Arial, Verdana;
+}
+#dvmaincontainer
+{
+width:900px;
+margin:0px auto;
+}
+#dvmaincontainer #dvtopcontainer
+{
+float:left;
+width:900px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+#dvtopcontainer #dvlogocontainer
+{
+float:left;
+width:324px;
+ font-size:0px;
+margin:0px;
+padding:0px 71px 0px 0px;
+}
+#dvlogocontainer h1
+{
+float:right;
+width:314px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:31px;
+text-align:right;
+font-weight:bold;
+color:#F8F4D5;
+margin:0px;
+padding:32px 0px 0px 0px;
+}
+#dvlogocontainer h4
+{
+float:right;
+width:198px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:right;
+font-weight:bold;
+color:#BB9F89;
+margin:0px;
+padding:0px 0px 30px 0px;
+}
+#dvtopcontainer #dvnavicontainer
+{
+float:right;
+width:395px;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+#dvnavicontainer img
+{
+float:left;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+
+#dvmaincontainer #dvbodycontainer
+{
+float:left;
+width:900px;
+background-image:url(../img/page_bg.jpg);
+background-repeat:repeat-y;
+background-position:top center;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+#dvbodycontainer #dvbannerbgcontainer
+{
+float:left;
+width:873px;
+height:226px;
+background-image:url(../img/bg.jpg);
+background-repeat:repeat;
+background-position:top;
+border-bottom:1px solid #D5D4CD;
+border-top:1px solid #D5D4CD;
+margin:0px;
+padding:38px 0px 0px 25px;
+}
+#dvbannerbgcontainer .lftcontainer
+{
+float:left;
+width:277px;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+.lftcontainer .dvbannerleft
+{
+float:left;
+width:277px;
+margin:0px;
+padding:0px 0px 15px 0px;
+}
+.dvbannerleft img
+{
+float:left;
+margin:0px;
+padding:0px 11px 0px 0px;
+font-size:0px;
+}
+.dvbannerleft p
+{
+float:left;
+width:203PX;
+font-size:12px;
+text-align:left;
+color:#424037;
+background-color:#FBF8A8;
+margin:6px 0px 0px 0px;
+padding:6px 0px 5px 8px;
+}
+.dvbannerleft p b
+{
+font-size:13px;
+font-weight:bold;
+}
+#dvbannerbgcontainer #dvbanner
+{
+float:left;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 35px;
+}
+#dvbodycontainer #dvleftpanel
+{
+float:left;
+width:274px;
+margin:0px;
+padding:26px 0px 4px 25px;
+}
+#dvleftpanel #topimage
+{
+float:left;
+width:259px;
+font-size:17px;
+margin:0px;
+padding:8px 0px 0px 15px;
+height:23px;
+background-color:#A4051B;
+color:#FFFFFF;
+text-align:center;
+font-weight:bold;
+font-family:'Helvetica', Arial, Verdana;
+line-height:18px;
+
+}
+#dvleftpanel #midcont
+{
+float:left;
+width:247px;
+margin:0px;
+padding:25px 0px 4px 25px;
+border-bottom:1px solid #F3F3F3;
+border-left:1px solid #F3F3F3;
+border-right:1px solid #F3F3F3;
+}
+#midcont p
+{
+float:left;
+width:223px;
+font-size:15px;
+text-align:left;
+line-height:18px;
+}
