@@ -5,10 +5,6 @@
  * www.dlancedu.com | Jaisiel Delance
  * framework mvc basico
  * View.php
- * LOS CONTROLADORES DEBEN EXTENDER DE UN CONTROLADOR PRINCIPAL
- * en la vista no es necesaio ya que éstas no son instanciadas
- * LA VISTA SE NECESITA DE UN OBJETO QUE GENERE EL TRABAJO CON ÉSTAS
- * PUNTO INTERESANTE --- -- -> Este framework soporta el cambio de templates
  * -------------------------------------
  */
 
@@ -23,7 +19,6 @@ class View
     
     public function renderizar($vista, $item = false)
     {
-        
         $menu = array(
             array(
                 'id' => 'inicio',
@@ -48,12 +43,14 @@ class View
         $rutaView = ROOT . 'views' . DS . $this->_controlador . DS . $vista . '.phtml';
         
         if(is_readable($rutaView)){
-            include_once ROOT . 'views' . DS . 'layout' . DS . DEFAULT_LAYOUT . DS . 'header.php';
+            include_once ROOT . 'views'. DS . 'layout' . DS . DEFAULT_LAYOUT . DS . 'header.php';            
             include_once $rutaView;
-            include_once ROOT . 'views' . DS . 'layout' . DS . DEFAULT_LAYOUT . DS . 'footer.php';            
-        }else{
+            include_once ROOT . 'views'. DS . 'layout' . DS . DEFAULT_LAYOUT . DS . 'footer.php';
+        } 
+        else {
             throw new Exception('Error de vista');
-        }       
+        }
     }
 }
+
 ?>

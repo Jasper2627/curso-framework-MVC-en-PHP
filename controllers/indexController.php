@@ -8,10 +8,12 @@ class indexController extends Controller
     
     public function index()
     {
-        /*** TRUCO para pasar un parametro desde este archivo a la vista***/
-        //echo 'Hola desde la pagina principal';
-        $this->_view->titulo = 'Portada desde la página principal';
-        $this->_view->renderizar('index','inicio');
+        $post = $this->loadModel('post');
+        
+        $this->_view->posts = $post->getPosts();
+        
+        $this->_view->titulo = 'Portada';
+        $this->_view->renderizar('index', 'inicio');
     }
 }
 

@@ -1,7 +1,14 @@
 <?php
 
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * -------------------------------------
+ * www.dlancedu.com | Jaisiel Delance
+ * framework mvc basico
+ * Registro.php
+ * -------------------------------------
  */
+
+
+
+
 ?>
